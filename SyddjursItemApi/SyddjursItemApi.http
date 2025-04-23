@@ -1,0 +1,6 @@
+@SyddjursItemApi_HostAddress = http://localhost:5096
+
+GET {{SyddjursItemApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
