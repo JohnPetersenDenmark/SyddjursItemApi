@@ -35,7 +35,7 @@ namespace SyddjursItemApi.Controllers
                 if (existingCategory == null)
                     return NotFound($"Item with ID {categoryDto.Id} not found.");
 
-                existingCategory.Category = categoryDto.Category;
+                existingCategory.Category = categoryDto.Category; 
 
                 _context.ItemCategories.Update(existingCategory);
             }
